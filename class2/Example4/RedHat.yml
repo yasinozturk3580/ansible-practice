@@ -1,0 +1,5 @@
+- name: Install Apache on CentOS
+  yum:
+    name: httpd
+    state: latest
+    
