@@ -1,0 +1,2 @@
+[centos]
+vm1  ansible_host=157.245.249.192
