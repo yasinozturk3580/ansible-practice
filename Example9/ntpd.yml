@@ -9,5 +9,5 @@
   - name: Remove unneccary lines from chronyd conf
     lineinfile:
       path: /etc/chrony.conf
-      regexp: "^server  [0-2]"
+      regexp: "^server  [0-3]"
       state: absent
